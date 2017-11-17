@@ -19,3 +19,11 @@ function fuzzyMatch(collection, likename)
 
   return newCollection;
 }
+
+function matchName(collection, name)
+{
+  for (const user of collection)
+  if (user.Name == name)
+    newCollection.push(user)
+    return newCollection;
+}
