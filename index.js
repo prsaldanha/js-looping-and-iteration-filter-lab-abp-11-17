@@ -1,4 +1,4 @@
-function findMatching(collection)
+function findMatching(name)
 {
-  
+
 }
