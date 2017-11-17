@@ -10,7 +10,7 @@ function findMatching(collection, name)
 
   }
 
-return newCollection;
+  return newCollection;
 }
 
 function fuzzyMatch(collection, likeName)
@@ -26,6 +26,7 @@ function fuzzyMatch(collection, likeName)
 
 function matchName(collection, name)
 {
+  const newCollection = [];
   for (const user of collection)
   if (user.Name == name)
     newCollection.push(user)
