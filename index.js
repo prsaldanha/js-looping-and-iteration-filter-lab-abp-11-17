@@ -12,3 +12,10 @@ function findMatching(collection, name)
 
 return newCollection;
 }
+
+function fuzzyMatch(collection, likename)
+{
+  const newCollection = [];
+
+  return newCollection;
+}
