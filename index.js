@@ -1,4 +1,4 @@
-function findMatching(collecton, name)
+function findMatching(collection, name)
 {
   const newCollection = [];
 
@@ -7,7 +7,7 @@ function findMatching(collecton, name)
   {
     if (user.toLowerCase() == name.toLowerCase())
       newCollection.push(user);
-    
+
   }
 
 return newCollection;
