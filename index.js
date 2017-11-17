@@ -29,7 +29,7 @@ function matchName(collection, name)
   const newCollection = [];
   for (const user of collection)
   {
-  if (user.Name === name)
+  if (user.name === name)
     newCollection.push(user)
   }
   return newCollection;
