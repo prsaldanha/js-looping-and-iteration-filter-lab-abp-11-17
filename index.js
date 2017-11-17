@@ -15,13 +15,13 @@ return newCollection;
 
 function fuzzyMatch(collection, likename)
 {
-  const newCollection = [];
-  for (const user in collection)
-  {
-  if (user.startsWith(likeName))
-    newCollection.push(user);
-}
-  return newCollection;
+    const newCollection = [];
+    for (const user in collection)
+    {
+      if (user.startsWith(likeName))
+        newCollection.push(user);
+    }
+    return newCollection;
 }
 
 function matchName(collection, name)
