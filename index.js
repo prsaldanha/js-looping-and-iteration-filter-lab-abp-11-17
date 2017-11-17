@@ -18,7 +18,7 @@ function fuzzyMatch(collection, likeName)
     const newCollection = [];
     for (const user in collection)
     {
-      if (user.startsWith(likeName))
+      if (user.lastIndexOf(likeName) === 0)
         newCollection.push(user);
     }
     return newCollection;
