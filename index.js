@@ -13,7 +13,7 @@ function findMatching(collection, name)
 return newCollection;
 }
 
-function fuzzyMatch(collection, likename)
+function fuzzyMatch(collection, likeName)
 {
     const newCollection = [];
     for (const user in collection)
